@@ -1,0 +1,37 @@
+header {
+    background-color: #35AADC;
+    height: 80px;
+}
+
+header h1 {
+    width: 268px;
+    height: 79px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 48px;
+    display: flex;
+    align-items: center;
+    color: var(--color-white);
+    margin-left: 20px;
+}
+
+header a {
+    border-radius: 10px;
+    padding: 13px 35px;
+    color: var(--color-white);
+    background-color: var(--color-green);
+    border-color: var(--color-green);
+    text-decoration: none;
+    font-family: Roboto;
+    text-align: center;
+    margin: 20px;
+}
+
+#header-title {
+    float: left;
+}
+
+#header-button {
+    display: flex;
+    justify-content: flex-end;
+}
